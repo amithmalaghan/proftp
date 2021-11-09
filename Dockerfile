@@ -1,8 +1,4 @@
 from centos:7
-#ENV host 'localhost'
-#ENV port ''
-#ENV user ''
-#ENV passwd ''
 RUN yum install -y epel-release
 RUN yum install -y httpd
 RUN yum install -y php
